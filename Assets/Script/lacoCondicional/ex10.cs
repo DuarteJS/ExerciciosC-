@@ -25,7 +25,7 @@ public class ex10 : MonoBehaviour
                 print("Moeda coletada" + moeda );
                 break;
 
-                case "Escudo";
+            case "Escudo":
                 escudo = true;
                 print("Escudo ativo");
                 break;
@@ -33,7 +33,8 @@ public class ex10 : MonoBehaviour
             case "Poção":
                 pocaoVida = true;
                 print("Poção de vida coletada ");
-                    break;
+                break;
+
             default:
                 Debug.Log("Item desconhecido");
                 break;
