@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+/*
+(Reverter uma string) Escreva um programa que inverte uma
+string usando um loop for.
+*/
 
 public class Ex8c : MonoBehaviour
 {
-    // Start is called before the first frame update
+    string nome = "Gabriel";
+    string nova;
     void Start()
     {
-        
+        for (int i = nome.Length; i > 0; i--)
+        {
+            nova += nome[i - 1];
+        }
+        print(nova);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
