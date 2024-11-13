@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
+using Unity.Burst.Intrinsics;
 using UnityEngine;
-//(Multiplicação de dano) Um personagem ataca cinco vezes, e o
-//dano do ataque aumenta em 2 a cada vez. Exiba o dano a cada
-//ataque.
-public class Ex2c : MonoBehaviour
+//4. (Pontuação em combos) Cada combo realizado aumenta em 10
+//pontos. Exiba a pontuação total após 7 combos.
+public class Ex4c : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,7 +16,8 @@ public class Ex2c : MonoBehaviour
                 print("Pontuação total 70.");
                 break;
             }
-        }
+        } 
+
     }
 
     // Update is called once per frame
@@ -25,4 +25,4 @@ public class Ex2c : MonoBehaviour
     {
         
     }
-            }
+}
