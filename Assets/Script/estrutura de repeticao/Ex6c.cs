@@ -8,7 +8,7 @@ divisível por 5 e “fizz buzz” quando for divisível pelos dois. Se o
 número não for divisível por nenhum deles, escreva-o no console.
 */
 
-public class Ex6 : MonoBehaviour
+public class Ex6c : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

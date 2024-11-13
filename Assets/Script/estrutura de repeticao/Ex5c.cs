@@ -8,7 +8,7 @@ dificuldade aumenta em 5 pontos. Exiba a dificuldade após cada
 fase, em um total de 6 fases.
 */
 
-public class Ex5 : MonoBehaviour
+public class Ex5c : MonoBehaviour
 {
     void Start()
     {
